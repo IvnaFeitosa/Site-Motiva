@@ -1,0 +1,131 @@
+.header-content-conteiner{
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    padding: 20px;
+}
+
+.header-content-conteiner-logo-input{
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+.header-content-conteiner-logo{
+    width:25%;
+}
+
+.header-content-conteiner-nav{
+    width:30%;
+}
+.header-content-conteiner-nav-list{
+    display:flex;
+    justify-content: space-around;
+}
+.header-content-conteiner-nav-link{
+    font-family: 'Barlow', sans-serif;
+    font-weight:600;
+    font-size:18px;
+    color:#1C1C1A;
+}
+.header-content-conteiner-nav-link-first{
+    color:#E21779;
+}
+
+.header-content-conteiner-search-input{
+    border:2px solid #1C1C1A;
+    border-radius: 20px;
+    padding:8px 30px;
+    
+}
+input::placeholder {
+    padding-top: 5px;
+    color: #9F9F9F;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+  }
+/*main content*/
+
+
+.main-content-container-text-img{
+    display:flex;
+    width:75%;
+    margin: 70px auto;
+    align-items:center;
+    
+}
+
+.main-title{
+    font-family: 'Lexend', sans-serif;
+    font-weight:bold;
+    font-size: 42px;
+    color:#1C1C1A;
+    margin: 20px 0;
+    
+}
+.main-subtitle{
+    font-family: 'Lexend', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color:#1C1C1A;
+    margin: 25px 0 5px 0;
+    line-height: 1.2;
+}
+.main-subtitle strong{
+    color:#E21779;
+}
+
+.main-text{
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    color:#1C1C1A;
+    margin: 5px 0 25px 0;
+    line-height: 1.2;
+    
+}
+.main-content-text-buttom{
+    display: flex;
+    flex-direction: column;
+    align-items:left;
+    width: 44%;
+    margin-right:8%;
+    justify-content: space-around;
+    
+}
+.main-content-text{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    
+}
+
+.main-img-office{
+    width: 48%;
+    padding-top:60px;
+    height:420px;
+}
+.main-buttom{
+    width:82%;
+    background:#080877;
+    border:none;
+    border-radius: 40px;
+    padding:14px 60px;
+    margin-top:10px;
+    color: #F8F8F8;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    transition: 400ms all;
+    cursor:pointer;
+    
+}
+
+.main-buttom:hover{
+    background: #0c0ca8;
+    transform:scale(1.1);
+}
