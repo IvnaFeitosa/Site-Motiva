@@ -14,6 +14,9 @@ This is a personal project with a purpose to practice. Motiva is a fictitious co
 <br>
 [VSC](https://code.visualstudio.com/)
 <br>
+[Trello](https://trello.com/)
+<br>
+[Google Docs](https://docs.google.com/)
 
 ##### 💻 Developer by:<br>
 UI Designer - [Kevin Leite](https://github.com/Kevin-Milk41) 
