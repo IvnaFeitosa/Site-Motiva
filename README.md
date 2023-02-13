@@ -6,7 +6,7 @@
 
 
 
-### This is a personal project with a purpose to practice. Motiva is a fictitious company whose aim is to target sturtups through a course access platform.
+### This is a personal project with a purpose to practice. Motiva is a fictitious company whose aim is to target startups through a course access platform.
 
 ## 🤖 Technologies
 
