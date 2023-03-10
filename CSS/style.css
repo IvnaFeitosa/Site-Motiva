@@ -37,6 +37,12 @@
     border-radius: 20px;
     padding:8px 30px;
     
+    
+    
+}
+
+.header-content-conteiner-search-input:focus{
+    width: 200px;
 }
 input::placeholder {
     padding-top: 5px;
@@ -48,7 +54,7 @@ input::placeholder {
 /*main content*/
 
 
-.main-content-container-text-img{
+.main-content-container-text-img, .main-content-item{
     display:flex;
     width:75%;
     margin: 70px auto;
@@ -128,4 +134,14 @@ input::placeholder {
 .main-buttom:hover{
     background: #0c0ca8;
     transform:scale(1.1);
+}
+
+
+.main-content-link{
+    font-family: 'Lexend', sans-serif;
+    font-weight: 750;
+    font-size: 24px;
+    text-decoration: none;
+    color:#E21779;
+
 }
