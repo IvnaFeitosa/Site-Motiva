@@ -1,0 +1,146 @@
+.header-content{
+    width:100%;
+    position:fixed;
+    top:0;
+    z-index: 999;
+    
+    
+}
+.header-content-conteiner{
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    padding: 20px;
+    
+    
+}
+
+.header-logo-menu{
+    display:flex;
+    justify-content: space-between;
+}
+
+.header-content-conteiner-logo-input{
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+.header-content-conteiner-logo{
+    width:25%;
+    margin-right: 200px;
+}
+
+.header-content-conteiner-nav{
+    width:30%;
+    
+}
+.header-content-conteiner-nav-list{
+    display:flex;
+    justify-content: space-around;
+}
+.header-content-conteiner-nav-link{
+    font-family: 'Barlow', sans-serif;
+    font-weight:600;
+    font-size:18px;
+    color:#1C1C1A;
+}
+.header-content-conteiner-nav-link:hover{
+    color:#655c5c;
+}
+.header-content-conteiner-nav-link-first{
+    color:#E21779;
+    
+}
+.header-content-conteiner-nav-link-first:hover{
+    color:#870242;
+    
+}
+
+.header-content-conteiner-search-input{
+    border:2px solid #1C1C1A;
+    border-radius: 20px;
+    padding:8px 30px;
+    
+    
+    
+}
+
+i#burguer{
+    
+    background:white;
+    color:#E21779;
+    display:none;
+    text-align:center;
+    padding:10px;
+
+
+}
+i#burguer:hover{
+    background:#E21779;
+    color: white;
+
+}
+
+
+
+.header-content-conteiner-search-input:focus{
+    width: 200px;
+}
+
+input::placeholder {
+    padding-top: 5px;
+    color: #9F9F9F;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+
+@media screen and (max-width:980px){
+    .header-content-conteiner-nav{
+        display:none;
+    }
+    i#burguer{
+        display:block;
+    }
+    .header-content-conteiner{
+        display:block;
+        
+    }
+    
+}
+
+@media screen and (max-width:980px){
+    .hamburguer{
+        display:block;
+        z-index:999;
+    }
+}
+@media screen and (max-width:800px) {
+    .header-content{
+        position: relative;
+        
+
+    }
+    .header-content-conteiner, .header-content-conteiner-logo-input, .header-content-conteiner-nav-list{
+        display:block;
+        flex-direction: column;
+        display:flex;
+        justify-content: center;
+        
+    }
+    .header-content-conteiner{
+        display:flex;
+        justify-content: center;
+        
+    }
+    .header-content-conteiner-nav-list{
+        margin-left: 40px;
+
+    }
+    .header-content-conteiner-nav-item, .header-content-conteiner-logo-input , .header-content-conteiner-logo{
+        padding-bottom: 15px;
+    }
+    
+}
