@@ -11,8 +11,6 @@
     justify-content: space-around;
     align-items:center;
     padding: 20px;
-    
-    
 }
 
 .header-logo-menu{
@@ -30,7 +28,10 @@
     width:25%;
     margin-right: 200px;
 }
-
+.menu-options{
+    display: flex;
+    justify-content:center ;
+}
 .header-content-conteiner-nav{
     width:30%;
     
@@ -68,18 +69,22 @@
 
 i#burguer{
     
-    background:white;
+    
     color:#E21779;
     display:none;
     text-align:center;
     padding:10px;
-
+    cursor:pointer;
 
 }
 i#burguer:hover{
     background:#E21779;
     color: white;
+    
 
+}
+a.header-content-conteiner-nav-link{
+    cursor: pointer;
 }
 
 
@@ -107,27 +112,23 @@ input::placeholder {
     .header-content-conteiner{
         display:block;
         
+        
     }
-    .main-content-first-section{
-        padding-top: 100px;
-    }
+    
     .header-content-conteiner-nav-list{
-        padding-bottom : 100px;
         display:block;
         flex-direction: column;
         text-align: center;
         justify-content: center;
 
     }
-    
-}
-
-@media screen and (max-width:980px){
     .hamburguer{
         display:block;
         z-index:999;
     }
+    
 }
+
 @media screen and (max-width:800px) {
     .header-content{
         position: relative;
@@ -152,6 +153,9 @@ input::placeholder {
     }
     .header-content-conteiner-nav-item, .header-content-conteiner-logo-input , .header-content-conteiner-logo{
         padding-bottom: 15px;
+    }
+    .main-content-first-section{
+        padding-top:0px;
     }
     
 }
