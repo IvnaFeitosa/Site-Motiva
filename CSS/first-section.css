@@ -92,3 +92,11 @@
     color:#E21779;
 
 }
+@media screen and (max-width:980px) {
+    .main-content-container-text-img{
+            display: flex;
+            flex-direction:column;
+            
+    }
+    
+}
