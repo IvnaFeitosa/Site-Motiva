@@ -53,3 +53,22 @@
     
     font-size: 20px !important;
 }
+
+@media screen and (max-width:920px) {
+    .second-section-cards{
+        display:flex;
+        flex-direction:column;
+    }
+    .card{
+        margin-bottom:2.5em;
+        
+    }
+    .main-content-link{
+        display:flex;
+        flex-direction:row;
+        
+    }
+    .fa-solid{
+        margin-left: 2px;
+    }
+}
