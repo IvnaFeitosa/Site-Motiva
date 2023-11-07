@@ -58,7 +58,7 @@
     width: 48%;
     padding-top:60px;
 }
-.main-buttom{
+.leads-buttom{
     width:0 auto;
     background:#080877;
     border:none;
@@ -77,7 +77,7 @@
     
 }
 
-.main-buttom:hover{
+.leads-buttom:hover{
     background: #0c0ca8;
     transform:scale(1.1);
 }
