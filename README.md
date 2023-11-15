@@ -21,7 +21,7 @@
 [Google Docs](https://docs.google.com/)
 
 ##### 💻 Developer by:<br>
-UI Designer - [Kevin Leite](https://github.com/Kevin-Milk41) 
+Brand author and UI Designer - [Kevin Leite](https://github.com/Kevin-Milk41) 
 <br>
 Web developer - [Ivna Feitosa](https://github.com/IvnaFeitosa).
 <br>
