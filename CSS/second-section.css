@@ -1,21 +1,25 @@
  .center-page{
     display:flex;
-    width:100%;
+    width:80%;
     padding: 70px 10%;
     align-items:center;
     background:#fff;
-    padding:20px auto ;
+    margin:20px auto ;
+
+
     
 }
+
 .second-section-content{
     
-    width:80%;
+    width:100%;
 }
 
 .second-section-cards{
     display:flex;
     flex-direction:row;
     justify-content:space-between;
+    overflow: hidden;
 }
 .img-cards{
    

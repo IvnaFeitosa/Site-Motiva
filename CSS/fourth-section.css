@@ -1,9 +1,11 @@
 .fourth-section-elements{
+
     display: flex;
     align-items: end;
+    justify-content: center;
 }
 .fourth-section-img-woman{
-    width: 15%;
+    width: 19%;
     position: relative;
     z-index: 10;
 }
@@ -124,6 +126,23 @@ strong{
 }
 @media screen and (max-width:1630px){
     .fourth-section-img-woman{
-        width: 25%;
+        width: 40%;
+        
+    }
+    
+    .fourth-section-input, .confirmation-checkbox{
+        margin: 20px 0px !important;
+        width: 100%;
+    }
+    .form-button{
+        margin: 0px;
+    }
+    .fourth-section-title{
+        width: 100%;
+        font-size: 34px;
+    }
+    .fourth-section-form{
+        padding: none;
+        margin: 0px;
     }
 }
