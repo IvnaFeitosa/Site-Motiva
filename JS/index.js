@@ -9,7 +9,7 @@ function opcaoMenu(){
 
     }else{
         opcoes.style.display = 'block';
-        fullHeader.style.background = '#d3d3d3';
+        fullHeader.style.background = '#FFE3F1';
         bodyTop.style.marginTop = '10em';
     }
      
