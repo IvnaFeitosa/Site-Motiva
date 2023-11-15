@@ -33,6 +33,10 @@
     
     
 }
+.footer-secondary-medias{
+    display: flex;
+    flex-direction: row;
+}
 .footer-secondary-medias img{
     margin-left: 20px;
 }

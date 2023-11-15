@@ -44,6 +44,9 @@
 .third-text-topcs{
     margin-bottom: 20px;
 }
+.img-buttom{
+    margin-right: 10px;
+}
 @media screen and (max-width:920px) {
     .responsive{
         display: flex;
