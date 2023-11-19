@@ -15,12 +15,18 @@
     width:100%;
 }
 
+.second-section-cards::-webkit-scrollbar {
+    display: none;
+  }
 .second-section-cards{
     display:flex;
     flex-direction:row;
     justify-content:space-between;
-    overflow: hidden;
+    overflow-y: hidden;
+    -ms-overflow-style: none; 
+    scrollbar-width: none;
 }
+  
 .img-cards{
    
     border-radius:0.5em ;
@@ -58,18 +64,23 @@
     
     font-size: 20px !important;
 }
+.card{
+    margin-left: 10px;
+}
 
 @media screen and (max-width:920px) {
     .second-section-cards{
         display:flex;
-        flex-direction:column;
+        flex-direction:row;
         align-items: center;
+        margin-left: 20px;
     }
     .card{
         margin-bottom:2.5em;
-        width: 75%;
+        width: 100%;
         display: flex;
         flex-direction: column;
+        
         
     }
     .main-content-link{
@@ -80,4 +91,5 @@
     .fa-solid{
         margin-left: 2px;
     }
+    
 }

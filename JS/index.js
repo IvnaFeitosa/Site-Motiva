@@ -17,7 +17,47 @@ function opcaoMenu(){
 }
 
 
+
+
+
+
 document.addEventListener("DOMContentLoaded", function() {
+
+const controls = document.querySelectorAll('.control');
+let currentItem = 0;
+const cards = document.querySelectorAll('.card');
+const maxCards = cards.length;
+controls.forEach((control) => {
+    control.addEventListener("click", (e) => {
+        //console.log('clicado');
+        isLeft = e.target.classList.contains("arrow-left");
+
+    if (isLeft) {
+      currentItem -= 1;
+    } else {
+      currentItem += 1;
+    }
+
+    if (currentItem >= maxCards) {
+      currentItem = 0;
+    }
+
+    if (currentItem < 0) {
+      currentItem = maxCards - 1;
+    }
+
+    cards.forEach((card) => card.classList.remove("current-card"));
+
+    cards[currentItem].scrollIntoView({
+      behavior: "smooth",
+      inline: "center"
+    });
+
+    cards[currentItem].classList.add("current-card");
+    })
+});
+
+
 let botaoMenu = document.getElementById("burguer");
 botaoMenu.onclick = opcaoMenu;
 });
