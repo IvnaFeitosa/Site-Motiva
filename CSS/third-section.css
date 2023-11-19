@@ -30,7 +30,7 @@
     font-size: 36px;
     font-style: normal;
     font-weight: 600;
-    margin-bottom: 25px;
+    margin-bottom: 55px;
     line-height: 44px;
 }
 .third-text-body{
@@ -47,6 +47,12 @@
 .img-buttom{
     margin-right: 10px;
 }
+
+.third-text-topcs i{
+    margin-right: 12px;
+    
+}
+
 @media screen and (max-width:920px) {
     .responsive{
         display: flex;
