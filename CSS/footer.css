@@ -17,12 +17,18 @@
 .footer-firts-text-button, .footer-second-text-button{
     width: 50%;
 }
+.footer-firts-text-button{
+    margin-right: 50px;
+}
+.footer-second-text-button{
+    margin-left: 50px;
+}
 .footer-secondary-elements{
     display: flex;
     justify-content:space-between;
     align-items: center;
     width: 100%;
-    margin-top: 80px;
+    margin-top: 120px;
 }
 .footer-second-button, .footer-firts-button{
     
@@ -81,4 +87,24 @@
         width: 100%;
         
     }
+    .footer-firts-text-button{
+        margin-right: 0px;
+        margin-bottom: 80px;
+    }
+    .footer-second-text-button{
+        margin-left: 0px;
+    }
+    .footer-logo-brand, .footer-secondary-text-medias, .footer-firts-text-button, .footer-second-text-button{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-logo-brand{
+        margin-bottom: 50px;
+    }
+    .footer-firts-text, .footer-second-text, .fourth-section-title{
+        text-align: center;
+        font-size: 30px;
+    }
+    
 }

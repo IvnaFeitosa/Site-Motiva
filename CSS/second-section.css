@@ -63,9 +63,13 @@
     .second-section-cards{
         display:flex;
         flex-direction:column;
+        align-items: center;
     }
     .card{
         margin-bottom:2.5em;
+        width: 75%;
+        display: flex;
+        flex-direction: column;
         
     }
     .main-content-link{

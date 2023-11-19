@@ -22,7 +22,7 @@
 .header-content-conteiner-logo-input{
     display:flex;
     align-items:center;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-top: 10px;
 }
 .header-content-conteiner-logo{
@@ -31,7 +31,8 @@
 }
 .menu-options{
     display: flex;
-    justify-content:center ;
+    justify-content:space-around ;
+    
 }
 .header-content-conteiner-nav{
     width:30%;
@@ -101,6 +102,9 @@ input::placeholder {
     font-weight: 500;
     font-size: 16px;
 }
+.header-content-conteiner-nav-item{
+    margin-left: 10px;
+}
 
 
 @media screen and (max-width:980px){
@@ -127,8 +131,12 @@ input::placeholder {
         display:block;
         z-index:999;
     }
+    .header-content-conteiner-logo{
+        margin-right: 140px;
+    }
     
 }
+
 
 @media screen and (max-width:800px) {
     .header-content{

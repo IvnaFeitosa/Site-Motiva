@@ -63,4 +63,21 @@
         width:100%;
         margin-left: 0;
     }
+    .third-text-title h2, .third-text-topcs{
+        text-align: center;
+    }
+    
+    .third-button{
+        display: flex;
+        justify-content: center;
+    }
+    .third-img{
+        border-radius: 0px;
+        
+    }
+    .center-page{
+        width: 100%;
+        padding: 70px 0px;
+    }
+    
 }
