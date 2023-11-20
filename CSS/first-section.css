@@ -135,4 +135,12 @@
     .main-img-office{
         border-radius: 0;
     }
+    .main-next {
+        visibility: hidden;
+    }
+}
+@media screen and (min-width:980px){
+    .header-content, .header-content-conteiner{
+        background: #F8F8F8;
+    }
 }

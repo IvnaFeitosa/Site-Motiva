@@ -80,7 +80,6 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
     }
     .footer-firts-text-button, .footer-second-text-button{
         
@@ -100,11 +99,14 @@
         align-items: center;
     }
     .footer-logo-brand{
-        margin-bottom: 50px;
+        margin-top: 50px;
     }
     .footer-firts-text, .footer-second-text, .fourth-section-title{
         text-align: center;
         font-size: 30px;
     }
-    
+    .footer-brand{
+        width: 80%;
+        text-align: center ;
+    }
 }

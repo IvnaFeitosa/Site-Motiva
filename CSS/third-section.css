@@ -6,8 +6,7 @@
 .third-section-align{
     display:flex;
     flex-direction: row;
-    justify-content: space-between
-    ;
+    justify-content: space-between;
 }
 .third-section-img{
     width:45%
@@ -84,6 +83,25 @@
     .center-page{
         width: 100%;
         padding: 70px 0px;
+    }
+    .third-section-align {
+        display: flex;
+        flex-direction: column;
+
+    }
+    .item1{
+        order: 2;
+    }
+    .item2{
+        margin-bottom: 50px;
+        order: 1;
+    }
+    .third-section-align{
+        position: relative;
+        bottom: -75px;
+    }
+    .third-section{
+        padding-top: 0;
     }
     
 }

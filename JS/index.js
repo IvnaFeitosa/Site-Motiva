@@ -24,38 +24,49 @@ function opcaoMenu(){
 document.addEventListener("DOMContentLoaded", function() {
 
 const controls = document.querySelectorAll('.control');
-let currentItem = 0;
+let currentCard = 0;
 const cards = document.querySelectorAll('.card');
 const maxCards = cards.length;
+document.getElementById("second-section-carrossel").innerHTML = (currentCard + 1) + " DE " + (maxCards) ;
 controls.forEach((control) => {
     control.addEventListener("click", (e) => {
         //console.log('clicado');
         isLeft = e.target.classList.contains("arrow-left");
-
+      
     if (isLeft) {
-      currentItem -= 1;
+      currentCard -= 1;
+      
+
     } else {
-      currentItem += 1;
+      currentCard += 1;
     }
 
-    if (currentItem >= maxCards) {
-      currentItem = 0;
+    if (currentCard >= maxCards) {
+      currentCard = 0;
     }
 
-    if (currentItem < 0) {
-      currentItem = maxCards - 1;
+    if (currentCard < 0) {
+      currentCard = maxCards - 1;
     }
+
+    document.getElementById("second-section-carrossel").innerHTML = (currentCard + 1) + " DE " + (maxCards);
 
     cards.forEach((card) => card.classList.remove("current-card"));
 
-    cards[currentItem].scrollIntoView({
+    cards[currentCard].scrollIntoView({
       behavior: "smooth",
-      inline: "center"
+      inline: "center",
+      block: "nearest"
+ 
     });
 
-    cards[currentItem].classList.add("current-card");
+    cards[currentCard].classList.add("current-card");
     })
+
+    
 });
+
+
 
 
 let botaoMenu = document.getElementById("burguer");
