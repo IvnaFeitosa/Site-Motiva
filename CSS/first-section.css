@@ -55,8 +55,10 @@
 }
 
 .main-img-office{
+    
+    border-radius: 20px;
     width: 48%;
-    padding-top:60px;
+    margin-top:60px;
 }
 .leads-buttom{
     width:0 auto;
