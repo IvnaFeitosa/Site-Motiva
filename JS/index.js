@@ -2,16 +2,22 @@ function opcaoMenu(){
     let fullHeader = document.getElementById("fullHeader");
     let bodyTop = document.getElementById("bodyTop");
     let opcoes = document.getElementById("opcoes");
+    
     if(opcoes.style.display == 'block'){
         opcoes.style.display = 'none';
         fullHeader.style.background = '#fff';
         bodyTop.style.marginTop = '70px';
-
+        fullHeader.style.border ='none';
+        fullHeader.style.borderEndEndRadius ='none';
+        fullHeader.style.boxShadow ='none';
     }else{
         opcoes.style.display = 'block';
-        fullHeader.style.background = '#FFE3F1';
+        fullHeader.style.boxShadow ='0 0 10px #F1F1F1';
+        fullHeader.style.background = '#F1F1F1';        
         bodyTop.style.marginTop = '10em';
     }
+    
+    
      
     
 }
@@ -71,4 +77,10 @@ controls.forEach((control) => {
 
 let botaoMenu = document.getElementById("burguer");
 botaoMenu.onclick = opcaoMenu;
+
+let menus = document.querySelector('.header-content-conteiner-nav-list');
+if((menus.style.flexDirection) != 'column'){
+  fullHeader.style.background = '#fff';
+}
+
 });
